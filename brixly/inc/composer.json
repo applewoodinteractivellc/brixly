@@ -1,0 +1,21 @@
+{
+  "name": "brixly/brixly-theme",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "BrixlyWP",
+      "email": "support@brixly.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BrixlyWP\\Theme\\": "src/"
+    },
+    "files": [
+      "template-functions.php"
+    ]
+  },
+  "require": {
+    "php": ">=5.6.0"
+  }
+}
